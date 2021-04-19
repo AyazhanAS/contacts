@@ -1,0 +1,124 @@
+ul, li {
+    list-style: none;
+}
+
+*{
+    margin: 0;
+}
+
+.wrapper_block_content{
+    display: flex;
+    width: 100%;
+    max-width: 1204px;
+    max-height: 827px;
+    margin: 100px auto 66px auto;
+   
+}
+
+.photo_teacher{
+    max-width: 592px;
+    max-height: 827px;
+
+}
+
+
+
+.photo_teacher img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+
+}
+
+.about_teacher{
+    background-color: #161616;
+    max-width: 612px;
+    max-height: 827px;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 45px;
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.teacher_name h3{
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    color: white;
+    margin-bottom: 0;
+}
+.teacher_name p{
+    color: #20A4F3;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+}
+
+
+.about_list ul{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 0;
+}
+
+.about_list ul li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 113px;
+}
+
+.pink_rect{
+    background: #FF3366;
+    max-height: 223px;
+    max-width: 362px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pink_rect span{
+    color: white;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Rubik;
+
+
+}
+
+.pink_rect p{
+    color: white;
+    width: 246px;
+    height: 134px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 140%;
+    font-family: Rubik;
+}
+

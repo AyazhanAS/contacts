@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+
+
+p,h1,h2,h3,h4,h5,h6, div, img{
+    margin: 0;
+}
+
+.searchpage__wrapper{
+    width: 100%;
+    min-height: 4700px;
+
+    background-color: #e5e5e5;
+}
+
+.searchpage__container{
+    width: 100%;
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+
+
+
+.result__searchpage{
+    max-width: 1204px;
+    height: 153px;
+    position: absolute;
+    border-radius: 10px;
+    top: 100px;
+    background-color: #fff;
+    padding-top: 42px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    width: 100%;
+    
+}
+
+
+.result__searchpage__theme {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16.5px;
+}
+
+.finded__results{
+    display: flex;
+}
+
+.finded__results__container:first-child{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.how_many{
+    background: #FF3366;
+    color: white;
+    border-radius: 7px;
+    margin: 9px;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 2px 9px;
+    font-weight: 400px;
+}
+
+
+
+
+.searchpage__input__wrapper{
+    position: absolute;
+    top: 263px;
+    background-color: white;
+    max-width: 1204px;
+    height: 91px;
+    border-radius: 10px;
+    top: 263px;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 100%;
+
+}
+
+
+
+.searchpage__input{
+    background-color: transparent;
+    background-image: url(./img/search.png);
+    background-repeat: no-repeat;
+    padding-bottom: 9px;
+    outline: 0;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #575756;
+    width: 1108px;
+    background-position: 100% center;
+
+}
+
+.part__courses{
+    position: absolute;
+    top:504px;
+}
+
+.part__theme{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;  
+    margin-bottom: 30px;
+}
+
+.part__courses{
+    position: absolute;
+    top:562px;
+}
+
+
+
+.part__courses__common__block{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.part__courses__every__block{
+    display: grid;
+    grid-template-columns: 10fr 9fr;
+    padding-left: 37px;
+
+    background-color: white;
+    border-radius: 10px;
+    width: 592px;
+    height: 150px; 
+    
+}
+
+.marketing__left__block {
+    border-right: 1px solid #ebebeb;
+    height: 100%;
+    padding-top: 38px;
+
+}
+
+
+
+.marketing__right__block {
+    padding-left: 32px;
+    padding-top: 38px;
+  
+}
+
+
+
+
+.marketing__and__PR{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FF3366;
+    text-transform: uppercase;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.programms__courses{
+    font-weight: 500px;
+    font-size: 16px;
+    color: #3733FF;
+    text-transform: uppercase;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.marketing__and__PR__down{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.start__and__end{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 8px;
+
+}
+
+.lector_name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.part__articles{
+    position: absolute;
+    top:1032px;
+}
+
+
+
+.part__articles__content{
+    display: flex;
+}
+
+.part__articles__article{
+    margin: 20px 0;
+    max-width: 592px;
+}
+
+.part__articles__text{
+    background-color: #fff;
+    padding: 25px 72px 25px 25px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.part__articles__up__text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+.part__articles__down__text{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+
+.part__articles__column__one{
+    margin-right: 20px;
+}
+
+.part__button {
+    margin: 50px auto;
+    padding: 25px 74px;
+    width: 347px;
+    height: 76px;
+    background: #20A4F3;
+    border-radius: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.part__button a{
+    
+    font-weight: bold;
+    font-size: 18px;
+    
+    /* identical to box height, or 27px */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+.part__videos{
+    position: absolute;
+    top: 2839px;
+}
+
+
+.part__videos__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.part__teachers{
+    position: absolute;
+    top: 3693px;
+}
+
+.part__teachers__photos{
+    display: flex;
+}
+

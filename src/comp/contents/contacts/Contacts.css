@@ -1,0 +1,319 @@
+
+/*=========================Общие*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a {
+  outline: none;
+  text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.Contacts {
+  background-color: #e5e5e5;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+/*======================Container*/
+.container {
+  max-width: 1600px;
+}
+
+/*=========================Content*/
+.content {
+}
+.content__title {
+  display: flex;
+  padding-bottom: 50px;
+}
+/*=========================Заглавие*/
+.content__title__name {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.content__title__stripe {
+  align-self: center;
+  width: 1028px;
+  border: 2px solid #000000;
+  background-color: black;
+  margin-left: 20px;
+}
+/*===========================Основная часть*/
+.content__wrapper {
+  display: flex;
+}
+.content__text__box {
+  width: 592px;
+  height: 640px;
+  border-radius: 10px 0 0 10px;
+  background: #fff;
+}
+.content__text__title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 130%;
+  color: #000000;
+  text-align: center;
+  margin-top: 58px;
+  margin-bottom: 7px;
+}
+.content__text__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+  padding-left: 82px;
+  padding-right: 80px;
+  margin-bottom: 35px;
+}
+
+
+
+
+
+
+.content__text__circle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  color: #707070;
+  width: 442px;
+  height: 70px;
+  padding-left: 30px;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 219px;
+  margin-left: 76px;
+  margin-right: 74px;
+  margin-top: 20px;
+  outline: none;
+}
+
+.content__text__circle--btn {
+  align-items: center;
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #20a4f3;
+  border-radius: 216px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.notValidEmail {
+  color: #FF3366;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.content__text__circle--btn:hover {
+  background: #305a72;
+  box-shadow: #333333;
+}
+
+
+
+
+
+.content__text__policy {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #777777;
+  text-align: center;
+  padding: 0 107px 40px 76px;
+}
+/*===================================Правая часть (Карта)*/
+.content__map {
+  position: relative;
+}
+.content__map__pic {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+  background: #011627;
+  border-radius: 10px 0 0 10px;
+  padding: 30px 31px 41px 30px;
+}
+.content__map__pic__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.content__map__pic__text:last-child {
+  margin-bottom: 0;
+}
+.content__map__pic__text--1 {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.content__map__pic__msg {
+  width: 15.33px;
+  height: 9.2px;
+  margin-right: 6.67px;
+}
+.content__map__pic__phone {
+  width: 13.23px;
+  height: 13.26px;
+  margin-right: 7.77px;
+}
+.content__map__pic__point {
+  width: 11.33px;
+  height: 17px;
+  margin-right: 8.67px;
+  padding-top: 2px;
+}
+
+@media (max-width: 421px) {
+  .container {
+    min-width: 320px;
+    width: 100%;
+  }
+
+  /*=========================Заглавие*/
+  .content__title {
+    display: none;
+  }
+  /*===========================Основная часть*/
+
+  .content__text__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .content__text__subtitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .content__text__circle {
+    height: 50px;
+    width: 281px;
+    left: 18px;
+    top: 302px;
+    border-radius: 219px;
+    margin-left: 19px;
+  }
+
+  .content__text__policy {
+    font-size: 10px;
+
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  /*===================================Правая часть (Карта)*/
+  .content__map {
+    width: 320px;
+    height: auto;
+  }
+  .content__text__box {
+    width: 320px;
+    height: 499px;
+    position: relative;
+    left: -32px;
+    top: -62px;
+  }
+
+  .content__text__circle--btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .content__text__policy {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding-left: 19px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+  }
+  .content__wrapper {
+    display: block;
+  }
+
+  .content__map {
+    position: relative;
+    left: -32px;
+  }
+
+  .content__map__pic {
+    width: 320px;
+  }
+}

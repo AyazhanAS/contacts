@@ -1,0 +1,46 @@
+.password_recovery {
+  background-color: #f6f7f8;
+  padding-bottom: 100px;
+}
+.password_recovery_content {
+  padding-top: 100px;
+  width: 592px;
+  height: 410px;
+  margin: 0 auto;
+
+  margin-bottom: 150px;
+}
+.password_recovery_block {
+  background: #ffffff;
+
+  border-radius: 10px;
+}
+.password_recovery_text {
+  padding: 75px;
+}
+.password_recovery_text h3 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  color: #000000;
+}
+.password_recovery_link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  text-align: center;
+
+  color: #707070;
+}
+.password_recovery_input {
+}
+.password_recovery_button {
+  margin-bottom: 20px;
+}

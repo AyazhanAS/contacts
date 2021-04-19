@@ -1,0 +1,228 @@
+/*! Обнуление */
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+img {
+  vertical-align: top;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+/*! Обнуление */
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+
+html {
+  scroll-behavior: smooth;
+}
+
+._container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+/*! Вход !*/
+
+.entrance {
+  background-color: #f6f7f8;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+.entrance_content {
+  position: relative;
+  background: #ffffff;
+  max-width: 592px;
+  max-height: 750px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.entrance_content_bg {
+  padding: 75px 75px 30px 75px;
+}
+.entrance_button {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.entrance_title {
+}
+.entrane_content_button {
+  background: #20a4f3;
+  border-radius: 216px;
+  width: 100%;
+  height: 70px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.entrance_form {
+  padding: 30px 0;
+}
+._top {
+  margin-bottom: 20px;
+}
+._bottom {
+  margin-bottom: 11px;
+}
+.entrance_form a {
+  float: right;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 19px;
+
+  color: #484848;
+}
+.entrance_text h3 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.entrance_text {
+}
+.entrance_input_text_input {
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 219px;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 24px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 130%;
+
+  color: #707070;
+}
+.entrance_line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border: 0.5px solid #b5b5b5;
+  background-color: #b5b5b5;
+}
+.entrance_social {
+  padding: 30px 0;
+}
+.entrance_link_place {
+}
+.entrance_link_title {
+  padding: 20px 20px;
+  height: 70px;
+  max-width: 100%;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 219px;
+  margin-bottom: 20px;
+}
+.entrance_link_title:last-child {
+  margin-bottom: 0;
+}
+.entrance_link_image {
+  margin-right: 10px;
+  height: 30px;
+}
+.entrance_link_text {
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+.entrance_content_link {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 130%;
+
+  color: #707070;
+}
