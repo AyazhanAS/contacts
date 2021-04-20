@@ -27,6 +27,7 @@ function Contacts() {
 
         if (phoneValid && emailValid) {
             document.body.style.overflow = "hidden";
+            setModalActive(true);
 
             emailjs
                 .sendForm(
@@ -38,7 +39,7 @@ function Contacts() {
                 .then(
                     (result) => {
                         console.log(result.text);
-                        setModalActive(true);
+                        
                     },
                     (error) => {
                         console.log(error.text);
@@ -135,10 +136,9 @@ function Contacts() {
                                />
 
                                 <div className={` ${
-                                 !phoneValid && !phoneFocused ? "notValidEmail" : ""
+                                 !phoneValid && !phoneFocused ? "notValid" : ""
                                 }`}
-                                >
-                               
+                                >                               
                                <ReactInputMask
                                 className={"content__text__circle"}
                                 placeholder={"Телефон"}
@@ -149,15 +149,17 @@ function Contacts() {
                                 onFocus={() => setPhoneFocus(true)}
                                 onBlur={() => setPhoneFocus(false)}
                                 required
-                               />
-                                      
+                               />                                      
                             {!phoneValid && !phoneFocused && (
                                 <h6 className = "error__inpit">Неправильный номер</h6>
                            )}
                            </div>
 
+
+
+
                            <div className={` ${
-                                 !phoneValid && !phoneFocused ? "notValidEmail" : ""
+                                 !emailValid && !isFocused ? "notValid" : ""
                                 }`}
                                 >
                            <input 

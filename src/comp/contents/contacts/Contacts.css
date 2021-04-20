@@ -145,12 +145,13 @@ p {
   border: none;
 }
 
-.notValidEmail {
+.notValid {
   color: #FF3366;
   text-align: center;
-  margin-top: 5px;
 }
-
+.notValid .content__text__circle{
+  border-color: #FF3366;
+}
 .content__text__circle--btn:hover {
   background: #305a72;
   box-shadow: #333333;
